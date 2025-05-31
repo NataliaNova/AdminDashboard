@@ -1,12 +1,44 @@
-# React + Vite
+# Admin Dashboard — React + Tailwind + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un panel de administración moderno, minimalista y **100% responsivo**, creado con **React**, **Vite** y **Tailwind CSS**. Diseñado para mostrar estadísticas clave, manejar usuarios y simular flujos reales de una interfaz de administración.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías principales
 
-## Expanding the ESLint configuration
+- ⚛**React** (SPA con React Router)
+- ⚡**Vite** (build ultra rápido)
+- **Tailwind CSS** (estilado moderno y utilitario)
+- **Autenticación simulada** (con `AuthContext`)
+- **Gráficas y tablas** editables
+- **Diseño responsivo** adaptado para móvil y escritorio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Funcionalidades
+
+- **Login simulado** con control de acceso (rutas protegidas)
+- **Vista de usuarios** editable directamente desde la tabla
+- **Dashboard con estadísticas** y gráficos
+- **Sidebar funcional y adaptable**
+- Panel adaptado para portafolio personal
+
+---
+
+## 📸 Credenciales de prueba
+
+admin@email.com
+admin123
+---
+
+##  Instalación local
+
+```bash
+git clone https://github.com/tu-usuario/admin-dashboard.git
+cd admin-dashboard
+npm install
+npm run dev
+
+
+##Despliegue
+Vercel
